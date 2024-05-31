@@ -1,38 +1,488 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  overflow-y: hidden;
+
+}
+
+
+.context {
+  background-color: rgb(34, 33, 33);
+  padding: 40px;
+  border-radius: 5px;
+  height: 70vh;
+  width: 70vw;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+margin-top: 0;
+margin-top: 0;
+position: absolute;
+top: 60px;
+right: 185px;
+
+}
+#smaller-div{
+margin-top: 60px;
+margin-left: 30px;
+font-size: 15px;
+/* display: flex;
+justify-content: flex-start;
+flex-direction: column; */
+
+
+}
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  /* padding-left: 10px; */
   color: white;
+  font-weight: 100;
+  margin: 0;
+
+}
+/* h1::before {
+  content: "";
+  margin-right: 10px;
+  position: absolute;
+  height: 10vh;
+  width: 5px; Width of the gradient border */
+  /* background: linear-gradient(to bottom, yellow, black); Gradient color */
+
+h3{
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 100;
+  margin: 0;
+  border-bottom: 1px dashed rgba(126, 126, 11, 0.498);
+  margin-bottom: 5px;
+}
+.big-div{
+  display: flex;
+}
+.child{
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin: 10px;
+}
+#side-div{
+  margin-top: 130px;
+margin-left: 100px;
+display: flex;
+flex-direction: column;
+
+}
+p{
+  font-family: "Montserrat", sans-serif;
+  margin: 9px 0 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+.smalldiv  {
+  border-left: 1px solid;
+  border-image: linear-gradient(to bottom, yellow, black);
+  border-image-slice: 1;
+  padding-left: 15px; /* Adjust as needed */
+}
+a{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, yellow, black 70%);
+  border-image-slice: 2;
+  padding-left: 15px; /* Adjust as needed */
+  padding-bottom: 7px;
+  font-family: "Montserrat", sans-serif;
+
+}
+.span{
+  font-weight: 300;
+}
+.projects{
+font-size: 30px;}
+
+/* .techStack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1px;
+  position: absolute;
+  left: 3;
+  bottom: 10;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.techStack figure {
+  flex-basis: 120px;
+  text-align: center;
+  margin: 0;
+  padding: px;
+}
+
+.techStack img {
+  max-width: 100%;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+} */
+
+.techStack{
+  margin-top: 65px;
+  margin-left: -25px;
+  font-family: "Montserrat", sans-serif;
+
   }
-  to {
-    transform: rotate(360deg);
+h2{
+  font-weight: 300;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, yellow, black 70%);
+  border-image-slice: 2;
+  display: inline-block;
+  border-width: 2px;
+  margin-bottom: 13px;
+
+}
+@media  (max-width: 375px) {
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    /* padding-left: 10px; */
+    color: white;
+    font-weight: 100;
+    margin: 0;
+
+  }
+  .smalldiv  {
+    border-left: 1px solid;
+    border-image: linear-gradient(to bottom, yellow, black);
+    border-image-slice: 1;
+    padding-left: 10px; /* Adjust as needed */
+  }
+  p{
+    font-family: "Montserrat", sans-serif;
+    margin: 9px 0 0 0;
+    font-size: 10px;
+  }
+  h3{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    border-bottom: 1px dashed rgba(126, 126, 11, 0.498);
+    margin-bottom: 5px;
+  }
+  #smaller-div{
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 10px;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column; */
+
+
+    }
+
+    .techStack{
+      margin-top: -20px;
+      margin-left: -25px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+
+      }
+      nav{
+        margin-top: -10px;
+        margin-left: 20px;
+      }
+      .big-div{
+        display: flex;
+
+      }
+      .child{
+        display:flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+        margin: 10px;
+      }
+      a{
+        margin: 15px;
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid;
+        border-image: linear-gradient(to right, yellow, black 70%);
+        border-image-slice: 2;
+        padding-left: 15px; /* Adjust as needed */
+        padding-bottom: 7px;
+        font-family: "Montserrat", sans-serif;
+
+      }
+      nav a{
+        margin-left: -10px;
+      }
+}
+@media  (max-width: 414px) {
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    /* padding-left: 10px; */
+    color: white;
+    font-weight: 100;
+    margin: 0;
+
+  }
+  .smalldiv  {
+    border-left: 1px solid;
+    border-image: linear-gradient(to bottom, yellow, black);
+    border-image-slice: 1;
+    padding-left: 5px; /* Adjust as needed */
+  }
+  p{
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0 0 0;
+    font-size: 13px;
+  }
+  h3{
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    border-bottom: 1px dashed rgba(126, 126, 11, 0.498);
+    margin-bottom: 5px;
+  }
+  #smaller-div{
+    margin-top: 50px;
+    margin-left: -10px;
+    font-size: 10px;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column; */
+
+
+    }
+
+    .techStack{
+      margin-top: 20px;
+      margin-left: -25px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+
+      }
+      nav{
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      .big-div{
+        display: flex;
+
+      }
+      .child{
+        display:flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+        margin: 10px;
+      }
+      a{
+        margin: 15px;
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid;
+        border-image: linear-gradient(to right, yellow, black 70%);
+        border-image-slice: 2;
+        padding-left: 15px; /* Adjust as needed */
+        padding-bottom: 7px;
+        font-family: "Montserrat", sans-serif;
+
+      }
+      nav a{
+        margin-left: 0px;
+      }
+      .footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .footer .techStack {
+        margin-top: -30px;
+        font-size: 15px;
+      }
+
+      .footer .contact {
+        margin-top: -10px;
+            font-size: 14px;
+            margin-left: -20px;
+      }
+      .techStack p {
+        margin-top:-5px ;
+      }
+}
+
+@media  (max-width: 430px) {
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    /* padding-left: 10px; */
+    color: white;
+    font-weight: 100;
+    margin: 0;
+
+  }
+  .smalldiv  {
+    border-left: 1px solid;
+    border-image: linear-gradient(to bottom, yellow, black);
+    border-image-slice: 1;
+    padding-left: 9px; /* Adjust as needed */
+  }
+  p{
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+  }
+  h3{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    border-bottom: 1px dashed rgba(126, 126, 11, 0.498);
+    margin-bottom: 5px;
+  }
+  #smaller-div{
+    margin-top: 50px;
+    margin-left: -30px;
+    font-size: 10px;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column; */
+
+
+    }
+    nav{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .big-div{
+      display: flex;
+
+    }
+    .child{
+      display:flex;
+      flex-direction: column;
+      padding: 1rem 1rem;
+      vertical-align: middle;
+      margin: 10px;
+    }
+    a{
+      margin: 15px;
+      text-decoration: none;
+      color: white;
+      border-bottom: 1px solid;
+      border-image: linear-gradient(to right, yellow, black 70%);
+      border-image-slice: 2;
+      padding-left: 12px; /* Adjust as needed */
+      padding-bottom: 0px;
+      font-family: "Montserrat", sans-serif;
+
+    }
+    nav a{
+      margin-left: 10px;
+    }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer .techStack {
+    margin-top: -30px;
+    font-size: 15px;
+  }
+
+  .footer .contact {
+    margin-top: -15px;
+        font-size: 14px;
+        margin-left: -20px;
+  }
+  .techStack p {
+    margin-top:-5px ;
+  }
+  }
+  .footer{
+    display: flex;
+  }
+  .contact{
+    margin-top: 60px;
+    margin-left: 350px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+  #specialone{
+    margin: 0;
+    padding: 0;
+  }
+  .contact p {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, yellow, black 70%);
+  border-image-slice: 2;
+  border-width: 1px;
+
+}
+@media ( max-width: 2000px) and (min-width: 1700px){
+  .footer{
+    display: flex;
+  }
+  .contact{
+    margin-top: 120px;
+    margin-left: 450px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+  #specialone{
+    margin: 0;
+    padding: 0;
+  }
+  .contact p {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, yellow, black 70%);
+  border-image-slice: 2;
+  border-width: 1px;
+
+}
+.techStack{
+  margin-top: 120px;
+  margin-left: -25px;
+  font-family: "Montserrat", sans-serif;
+
+  }
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+  margin-top: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 90px;
+  right: 255px;
+
+  }
+  nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, yellow, black 70%);
+    border-image-slice: 2;
+    padding-left: 13px; /* Adjust as needed */
+    padding-bottom: -0px;
+    font-family: "Montserrat", sans-serif;
+
   }
 }
