@@ -6,7 +6,6 @@ function App() {
   return (
    <div>
     <Home/>
-    <p>I AM WORKING</p>
    </div>
   );
 }
