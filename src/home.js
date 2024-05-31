@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css"; // Ensure this file contains your CSS
 import bgImage from "./bgportfolio.png"; // Ensure you have this image in your project directory
-import rorimg from "./ror.png";
-import linux from "./linux.png";
-import js from "./js.jpg";
-import python from "./python.webp";
-import ruby from "./ruby.jpg";
-import sql from "./sql.jpeg";
-import django from "./django.jpg";
-import bootstrap from "./bootstrap.jpeg";
-import aws from "./aws.png";
-import react from "./react.png";
-import stimulus from "./stimulus.png";
 import cv from "./ayubcv.png"
 export default function Home() {
   useEffect(() => {
@@ -60,8 +49,8 @@ export default function Home() {
           <a href={cv} download >
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAYtJREFUaEPtmQGOAiEMRTs3c0+2ejK92a4/8ccGYahQBibpJMZoB+ijv8B0Njn5tZ3cfwmA2RH8JgJXEfl1cPj27AN9uVwWgIuI3F1Ge3fiBmEBgPOA8L5cICwAf96eq/66IY4EgLO5HOqCOBIAY5UWgmaIowGgHleIGQCuELMA3CBmArhAzAbohlgBoAtiFYA9iF0fVwIoQSwD0HoiCYCRhzlLVCICEQGLTnbuCQmFhEJCrQnyaleSkE4uVC3w4TNvakNXsLG6kUtMyzgfKD1nIbZlkQrffFzM2TA4SzSpnYC5uR62CqFjFr0eIvKjfmsbnKI9BbQsEMMBIA1UFeCknmFd0SMAYOA0naKktPzSKAwF0IPpakMaAdyn/1sGgDOXlh5TANZ9GBUCLCGhXOGXAFpeuSReGqAkL8qJ+VDb54blQG1gL3sAWHTqNduHbmQjndZ9h4S8Xu61REzv4Nn2lsOcdblrcbDWBucrQBQvK0Bpx6050Go3v7GxArQ6MrxdAAyf4soAp4/AP2SKaDFm3NjXAAAAAElFTkSuQmCC" alt="Download CV" />
             </a>
-          <a href="https://github.com/Ayub-AH" target="_blank" className="nav"><i id="github"className="fab fa-github fa-2x"></i></a>
-          <a href="https://www.linkedin.com/in/ayub-hassan55/" target="_blank" className="nav"><i className="fab fa-linkedin fa-2x" style={{ color: '#0077b5' }}></i></a>
+          <a href="https://github.com/Ayub-AH" target="_blank" className="nav" rel="noreferrer"><i id="github"className="fab fa-github fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/ayub-hassan55/" target="_blank" className="nav" rel="noreferrer"><i className="fab fa-linkedin fa-2x" style={{ color: '#0077b5' }}></i></a>
             {/* <a href="#" className="tooltip">My Tech Stack<span className="tooltiptext">Ruby,Python,Java,Javascript,Django,Ruby On Rails,React,Vue.Js,Stimulus, HTML, CSS , Bootstrap, </span></a> */}
           </nav>
         </header>
@@ -85,9 +74,9 @@ export default function Home() {
           </div>
           <div id="side-div" className="child">
             <a href="#" className="projects">Projects</a>
-            <a target= "_blank" href="https://github.com/peeta98/shape-sync-project">ShapeSync</a>
-            <a  target= "_blank" href="https://github.com/Ayub-AH/GoalGraze">GoalGraze</a>
-            <a target= "_blank" href="https://github.com/peeta98/earthbnb-clone">EarthBnB</a>
+            <a target= "_blank" href="https://github.com/peeta98/shape-sync-project" rel="noreferrer">ShapeSync</a>
+            <a  target= "_blank" href="https://github.com/Ayub-AH/GoalGraze" rel="noreferrer">GoalGraze</a>
+            <a target= "_blank" href="https://github.com/peeta98/earthbnb-clone" rel="noreferrer">EarthBnB</a>
           </div>
         </div>
         {/* <div className="techStack">
@@ -146,7 +135,7 @@ export default function Home() {
           </div>
           <div className="contact">
             <h2>Contact Me</h2>
-          <a href="mailto:ayyubahmed555@gmail.com" id="specialone">ayyubahmed555@gmail.com</a>
+          <a href="mailto:ayyubahmed555@gmail.com" id="specialone" target="_blank" rel="noreferrer">ayyubahmed555@gmail.com</a>
             <p>+447476324547</p>
           </div>
           </div>
