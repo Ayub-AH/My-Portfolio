@@ -107,6 +107,15 @@ a{
   font-weight: 300;
 }
 .projects{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, yellow, black 70%);
+  border-image-slice: 2;
+  padding-left: 15px; /* Adjust as needed */
+  padding-bottom: 7px;
+  font-family: "Montserrat", sans-serif;
 font-size: 30px;}
 
 /* .techStack {

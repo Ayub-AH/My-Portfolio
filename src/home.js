@@ -14,9 +14,9 @@ export default function Home() {
   //   color: "white",
   // };
 
-  const handleToggle = () => {
-    setToggle(!toggle);
-  };
+  // const handleToggle = () => {
+  //   setToggle(!toggle);
+  // };
 
   return (
     <>
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
           </div>
           <div id="side-div" className="child">
-            <a  className="projects">Projects</a>
+            <h2 className="projects">Projects</h2>
             <a target= "_blank" href="https://github.com/peeta98/shape-sync-project" rel="noreferrer">ShapeSync</a>
             <a  target= "_blank" href="https://github.com/Ayub-AH/GoalGraze" rel="noreferrer">GoalGraze</a>
             <a target= "_blank" href="https://github.com/peeta98/earthbnb-clone" rel="noreferrer">EarthBnB</a>
