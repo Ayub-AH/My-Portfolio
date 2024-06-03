@@ -494,3 +494,102 @@ h2{
 
   }
 }
+@media (max-width: 366px){
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    /* padding-left: 10px; */
+    color: white;
+    font-weight: 100;
+    margin: 0;
+
+  }
+  h3{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    border-bottom: 1px dashed rgba(126, 126, 11, 0.498);
+    margin-bottom: 5px;
+  }
+  .smalldiv  {
+    border-left: 1px solid;
+    border-image: linear-gradient(to bottom, yellow, black);
+    border-image-slice: 1;
+    padding-left: 10px; /* Adjust as needed */
+  }
+  #smaller-div{
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 0;
+    font-size: 10px;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column; */
+
+
+    }
+    .smalldiv p {
+      font-size: 9px
+    }
+    .techStack h2{
+      font-size: 12px;
+    }
+    .techStack p {
+      font-size: 9px;
+    }
+    .smalldiv h3{
+      font-size: 14px;
+    }
+    .contact h2{
+font-size: 12px;
+
+    }
+    .contact a {
+      font-size: 9px;
+    }
+    .contact p {
+      font-size: 9px;
+    }
+.contact{
+  padding-top: 30px;
+  display: flex;
+  flex-direction:column;
+
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+margin-top: 0;
+position: absolute;
+top: 70px;
+right: 95px;
+
+}
+.big-div{
+  margin-left: -30px;
+}
+#side-div{
+  position: absolute;
+left: -116px;
+font-size: 9px;
+top:440px;
+display:flex ;
+flex-direction: row;
+}
+#side-div h2{
+  font-size: 14px;
+  font-weight: 400;
+}
+#side-div a {
+  padding: 0;
+}
+.techStack{
+  padding-top: 10px;
+}
+.projects::after{
+  content: " :";
+}
+
+}
