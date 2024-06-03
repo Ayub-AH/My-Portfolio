@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 import "./App.css"; // Ensure this file contains your CSS
 import bgImage from "./bgportfolio.png"; // Ensure you have this image in your project directory
 import cv from "./ayubcv.png"
