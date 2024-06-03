@@ -8,11 +8,11 @@ export default function Home() {
       document.body.classList.add('loaded');
     });
   }, []);
-  const time = new Date().toLocaleString();
+  // const time = new Date().toLocaleString();
   const [toggle, setToggle] = useState(false);
-  const style = {
-    color: "white",
-  };
+  // const style = {
+  //   color: "white",
+  // };
 
   const handleToggle = () => {
     setToggle(!toggle);
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
           </div>
           <div id="side-div" className="child">
-            <a href="#" className="projects">Projects</a>
+            <a  className="projects">Projects</a>
             <a target= "_blank" href="https://github.com/peeta98/shape-sync-project" rel="noreferrer">ShapeSync</a>
             <a  target= "_blank" href="https://github.com/Ayub-AH/GoalGraze" rel="noreferrer">GoalGraze</a>
             <a target= "_blank" href="https://github.com/peeta98/earthbnb-clone" rel="noreferrer">EarthBnB</a>
