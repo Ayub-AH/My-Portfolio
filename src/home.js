@@ -9,7 +9,7 @@ export default function Home() {
     });
   }, []);
   // const time = new Date().toLocaleString();
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
   // const style = {
   //   color: "white",
   // };
